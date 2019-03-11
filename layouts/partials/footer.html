@@ -1,0 +1,4 @@
+<footer class="footer {{ if eq .Type "post" }}footer--single{{ end }}" role="contentinfo">
+  <small class="copyright">© {{ .Date.Format "2006" }} <a href="/">{{ .Site.Author.name }}</a>. {{ .Site.Params.description | safeHTML }}</small>
+</footer>
+
